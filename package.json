@@ -1,0 +1,23 @@
+{
+  "name": "vsts-webhooks",
+  "version": "1.0.0",
+  "description": "Source for Azure functions webhooks bound to VSTS",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterblazejewicz/vsts-webhooks-funcs.git"
+  },
+  "keywords": [],
+  "author": "Peter Blazejewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterblazejewicz/vsts-webhooks-funcs/issues"
+  },
+  "homepage": "https://github.com/peterblazejewicz/vsts-webhooks-funcs#readme",
+  "dependencies": {
+    "lodash.upperfirst": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.112"
+  }
+}
