@@ -1,12 +1,10 @@
-const upperFirst = require('lodash.upperfirst');
-
-module.exports = (context, req) => {
+module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
             // status: 200, /* Defaults to 200 */
-            body: `Hello ${upperFirst(req.query.name || req.body.name)}`,
+            body: "Hello " + (req.query.name || req.body.name)
         };
     } else {
         context.res = {
